@@ -1,0 +1,9 @@
+#write a program to remove even numbers from the list
+n=7
+l=[34,5,6,7,45,2,5]
+b=[]
+for j in l:
+    if j%2!=0:
+       b.append(j)
+for y in b:
+    print(y)
